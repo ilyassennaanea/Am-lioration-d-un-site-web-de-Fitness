@@ -545,3 +545,30 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+.contact-contenu { 
+  align-items: flex-start; 
+}
+.contact-infos, .formulaire-contact { 
+  padding: 24px; 
+}
+.contact-ligne { 
+  display: flex;
+  gap: 12px;
+   margin: 20px 0;
+}
+.contact-ligne img {
+  width: 24px;
+  height: 24px;
+}
+.formulaire-contact label {
+  display: block;
+  margin-top: 16px;
+}
+.formulaire-contact input, .formulaire-contact select, .formulaire-contact textarea {
+  width: 100%; 
+  padding: 10px; 
+  font: inherit;
+}
+.formulaire-contact button { 
+  margin-top: 20px; 
+} 
