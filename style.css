@@ -178,6 +178,7 @@ button:focus-visible {
   font-size: 24px;
   font-weight: 700;
   color: #0F1B2D;
+  
 }
 
 .logo::after {
@@ -572,3 +573,6 @@ button:focus-visible {
 .formulaire-contact button { 
   margin-top: 20px; 
 } 
+#logo{
+  width: 100px;
+}
